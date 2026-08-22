@@ -117,7 +117,7 @@ const Overview = () => {
             style={{ flex: '1 1 400px', display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center' }}
           >
             <img 
-              src="/DSC00693.jpg" 
+              src="/image1.jpeg" 
               alt="Students studying" 
               style={{ 
                 width: '100%', 
