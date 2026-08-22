@@ -128,28 +128,7 @@ const Overview = () => {
               }} 
             />
             
-            {/* Badge placed below image */}
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.6 }}
-              style={{
-              backgroundColor: '#0f172a',
-              padding: '24px',
-              borderRadius: '16px',
-              color: 'white',
-              width: '100%',
-              textAlign: 'center',
-              boxShadow: '0 10px 30px rgba(15,23,42,0.1)'
-            }}>
-              <div style={{ fontFamily: 'var(--font-serif)', fontSize: '2.5rem', fontWeight: 600, color: '#fbf9f6', marginBottom: '8px' }}>
-                70%
-              </div>
-              <div style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '1.5px', color: '#9ca3af' }}>
-                EXPERIENTIAL LEARNING
-              </div>
-            </motion.div>
+
           </motion.div>
 
         </div>
