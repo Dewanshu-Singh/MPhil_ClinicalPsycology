@@ -51,7 +51,7 @@ const RCIAdvantage = () => {
           
           <div style={{ flex: '1 1 400px', paddingTop: '12px' }}>
             <p style={{ color: '#94a3b8', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: '500px' }}>
-              Since 2020, the Department of Clinical Psychology at SGVU has run this program under RCI norms — two batches graduated, two ongoing. This is not just a degree; it is your pathway to becoming a licensed mental health professional.
+              Since 2022, the Department of Clinical Psychology at SGVU has run this program under RCI norms — two batches graduated, two ongoing. This is not just a degree; it is your pathway to becoming a licensed mental health professional.
             </p>
           </div>
         </motion.div>
