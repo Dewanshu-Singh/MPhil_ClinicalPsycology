@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  
+  /* Color Palette - Premium Dark Theme for rest of site */
+  --bg-color: #0b0f19;
+  --bg-gradient: linear-gradient(135deg, #0b0f19 0%, #111827 100%);
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  
+  /* Updated Primary Color to Blue */
+  --primary-color: #2563eb; 
+  --primary-glow: rgba(37, 99, 235, 0.5);
+  --secondary-color: #3b82f6; 
+  --accent-color: #10b981; 
+  
+  /* Hero specific */
+  --hero-text: #ffffff;
+  --hero-muted: #e5e7eb;
+
+  /* Glassmorphism Tokens */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(12px);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Offset for sticky navbar */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+button:focus-visible, a:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 4px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-gradient);
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glassmorphism Utility */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: 16px;
+}
+
+/* Common Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 48px;
+  background: linear-gradient(90deg, var(--text-main), var(--text-muted));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  outline: none;
+  gap: 8px;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  box-shadow: 0 4px 14px var(--primary-glow);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--primary-glow);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text-main);
+  border: 1px solid var(--glass-border);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Layout */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.gap-1 { gap: 8px; }
+.gap-2 { gap: 16px; }
+.gap-3 { gap: 24px; }
+.gap-4 { gap: 32px; }
+
+/* Micro-animations */
+.fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animations delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+
+/* Grid */
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 { grid-template-columns: repeat(1, 1fr); }
+@media (min-width: 768px) {
+  .md-grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .md-grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Form Elements */
+.input-field {
+  width: 100%;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ /* Responsive Overrides */
+@media (max-width: 900px) {
+  .desktop-links {
+    display: none !important;
+  }
+  .mobile-menu-toggle {
+    display: block !important;
+  }
+  section {
+    padding: 60px 0 !important;
+  }
+  .container {
+    padding: 0 16px !important;
+  }
+  /* Fix Campus Grid */
+  .campus-grid {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+  }
+  .campus-grid > div {
+    grid-area: auto !important;
+    height: 250px !important;
+  }
+  /* Typography Scaling */
+  .section-title {
+    font-size: 2rem !important;
+    margin-bottom: 32px !important;
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+  /* Navbar logos scaling */
+  .navbar-logos {
+    gap: 8px !important;
+  }
+  .navbar-logos img {
+    height: 28px !important;
+  }
+  .navbar-logos img:first-child {
+    height: 36px !important;
+  }
+  /* Form adjustments */
+  .admission-form-wrapper {
+    width: 100% !important;
+    margin-top: 32px;
+  }
+  /* Disable sticky FAQ header on mobile */
+  .faq-sticky-header {
+    position: relative !important;
+    top: 0 !important;
+    z-index: 1;
+  }
+  /* Card stack overlap effect for mobile */
+  .mobile-stack-card {
+    position: sticky !important;
+    top: 100px !important; 
+    z-index: 10;
+  }
+  /* Horizontal scroll for step process on mobile */
+  .horizontal-scroll-mobile {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 24px;
+    justify-content: flex-start !important;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 16px; /* Align snap to container padding */
+    scrollbar-width: none; /* Firefox */
+  }
+  .horizontal-scroll-mobile::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+  .mobile-scroll-card {
+    flex: 0 0 75vw !important;
+    scroll-snap-align: start;
+  }
+}
+
+.faq-sticky-header {
+  position: sticky;
+  top: 100px;
+  z-index: 10;
+}
