@@ -111,7 +111,7 @@ const Hero = () => {
           }}>
             {[
               { value: '2 Years', label: 'FULL-TIME PROGRAM' },
-              { value: '2020', label: 'RUNNING SINCE' },
+              { value: '2022', label: 'RUNNING SINCE' },
               { value: 'RCI', label: 'APPROVED' }
             ].map((stat, idx) => (
               <div key={idx} style={{
