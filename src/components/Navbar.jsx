@@ -24,7 +24,7 @@ const Navbar = () => {
     }}>
       <div className="navbar-logos" style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
         <img 
-          src="/SureshGyanVihar.png" 
+          src="/logo2.png" 
           alt="Suresh Gyan Vihar University Logo" 
           style={{ height: '50px', objectFit: 'contain' }} 
         />
