@@ -30,8 +30,6 @@ const Navbar = () => {
           style={{ 
             height: '100px', 
             objectFit: 'contain',
-            alignSelf: 'flex-start',
-            marginTop: '10px',
             filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.1))'
           }} 
         />
