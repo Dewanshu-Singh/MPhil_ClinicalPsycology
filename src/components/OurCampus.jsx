@@ -3,24 +3,29 @@ import { motion } from 'framer-motion'
 
 const images = [
   {
-    src: "/campus1.jpg",
+    src: "/Life1.jpg",
     alt: "University Campus",
-    gridArea: "1 / 1 / 3 / 3" // Large square
+    gridArea: "1 / 1 / 3 / 3" // Large left square
   },
   {
-    src: "/campus2.jpg",
+    src: "/life2.jpg",
     alt: "Campus Facilities",
-    gridArea: "1 / 3 / 2 / 5" // Top right rectangle
+    gridArea: "1 / 3 / 2 / 4" // Top middle square
   },
   {
-    src: "/campus3.jpg",
+    src: "/life3.jpg",
     alt: "Student Life",
-    gridArea: "2 / 3 / 3 / 4" // Bottom right small square 1
+    gridArea: "1 / 4 / 2 / 5" // Top right square
   },
   {
-    src: "/campus4.jpg",
+    src: "/life4.jpg",
     alt: "Academic Block",
-    gridArea: "2 / 4 / 3 / 5" // Bottom right small square 2
+    gridArea: "2 / 3 / 3 / 4" // Bottom middle square
+  },
+  {
+    src: "/life5.jpg",
+    alt: "Events",
+    gridArea: "2 / 4 / 3 / 5" // Bottom right square
   }
 ]
 
