@@ -24,7 +24,7 @@ const Footer = () => {
                 <img 
                   src="/logo2.png" 
                   alt="Suresh Gyan Vihar University Logo" 
-                  style={{ height: '45px', objectFit: 'contain' }} 
+                  style={{ height: '65px', objectFit: 'contain' }} 
                 />
               </div>
             </div>
