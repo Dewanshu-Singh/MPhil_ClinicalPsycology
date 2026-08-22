@@ -111,14 +111,13 @@ const Hero = () => {
           }}>
             {[
               { value: '2 Years', label: 'FULL-TIME PROGRAM' },
-              { value: '4', label: 'SEMESTERS' },
               { value: '2020', label: 'RUNNING SINCE' },
               { value: 'RCI', label: 'APPROVED' }
             ].map((stat, idx) => (
               <div key={idx} style={{
                 flex: 1,
                 padding: '24px',
-                borderRight: idx !== 3 ? '1px solid rgba(255,255,255,0.1)' : 'none'
+                borderRight: idx !== 2 ? '1px solid rgba(255,255,255,0.1)' : 'none'
               }}>
                 <div style={{ 
                   fontFamily: 'var(--font-serif)', 
