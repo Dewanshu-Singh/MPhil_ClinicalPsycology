@@ -13,7 +13,8 @@ const Navbar = () => {
       style={{ 
       backgroundColor: 'rgba(251, 249, 246, 0.95)', 
       backdropFilter: 'blur(10px)',
-      padding: '16px 24px', 
+      padding: '0 24px', 
+      height: '80px',
       display: 'flex', 
       justifyContent: 'space-between', 
       alignItems: 'center',
@@ -22,11 +23,17 @@ const Navbar = () => {
       top: 0,
       zIndex: 50
     }}>
-      <div className="navbar-logos" style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+      <div className="navbar-logos" style={{ display: 'flex', alignItems: 'center', gap: '16px', height: '100%' }}>
         <img 
           src="/logo2.png" 
           alt="Suresh Gyan Vihar University Logo" 
-          style={{ height: '100px', objectFit: 'contain' }} 
+          style={{ 
+            height: '100px', 
+            objectFit: 'contain',
+            alignSelf: 'flex-start',
+            marginTop: '10px',
+            filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.1))'
+          }} 
         />
         <img 
           src="/naac.png" 
