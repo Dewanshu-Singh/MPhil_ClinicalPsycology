@@ -48,7 +48,7 @@ const Overview = () => {
               </h2>
               
               <p style={{ color: '#4b5563', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '24px' }}>
-                The M.Phil in Clinical Psychology at Suresh Gyan Vihar University is a Rehabilitation Council of India (RCI) approved professional program designed to train students in the assessment, diagnosis and treatment of mental health disorders. Running successfully since 2020, it is a 70% experiential, training-based course that integrates theory with intensive clinical practice.
+                The M.Phil in Clinical Psychology at Suresh Gyan Vihar University is a Rehabilitation Council of India (RCI) approved professional program designed to train students in the assessment, diagnosis and treatment of mental health disorders. Running successfully since 2022, it is an experiential, training-based course that integrates theory with intensive clinical practice.
               </p>
               
               <p style={{ color: '#4b5563', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '48px' }}>
