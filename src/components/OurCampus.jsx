@@ -3,27 +3,27 @@ import { motion } from 'framer-motion'
 
 const images = [
   {
-    src: "/Life1.jpg",
+    src: "/IMG-20260822-WA0039.jpg.jpeg",
     alt: "University Campus",
     gridArea: "1 / 1 / 3 / 3" // Large left square
   },
   {
-    src: "/life2.jpg",
+    src: "/IMG-20260822-WA0045.jpg.jpeg",
     alt: "Campus Facilities",
     gridArea: "1 / 3 / 2 / 4" // Top middle square
   },
   {
-    src: "/life3.jpg",
+    src: "/WhatsApp Image 2026-08-22 at 14.02.10.jpeg",
     alt: "Student Life",
     gridArea: "1 / 4 / 2 / 5" // Top right square
   },
   {
-    src: "/life4.jpg",
+    src: "/WhatsApp Image 2026-08-22 at 14.02.13.jpeg",
     alt: "Academic Block",
     gridArea: "2 / 3 / 3 / 4" // Bottom middle square
   },
   {
-    src: "/life5.jpg",
+    src: "/WhatsApp Image 2026-08-22 at 14.02.14.jpeg",
     alt: "Events",
     gridArea: "2 / 4 / 3 / 5" // Bottom right square
   }
