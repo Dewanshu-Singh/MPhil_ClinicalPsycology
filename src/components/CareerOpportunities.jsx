@@ -21,7 +21,6 @@ const careers = [
   { name: "Neuropsychologist", icon: <Activity size={20} color="var(--primary-color)" /> },
   { name: "Child & Adolescent Psychologist", icon: <Users size={20} color="var(--primary-color)" /> },
   { name: "De-Addiction / Rehab Specialist", icon: <HeartHandshake size={20} color="var(--primary-color)" /> },
-  { name: "Forensic Psychologist", icon: <Scale size={20} color="var(--primary-color)" /> },
   { name: "University Professor / Lecturer", icon: <GraduationCap size={20} color="var(--primary-color)" /> },
   { name: "Researcher / Ph.D. Scholar", icon: <Microscope size={20} color="var(--primary-color)" /> },
   { name: "Govt (NIMHANS / IHBAS / Hospitals)", icon: <Landmark size={20} color="var(--primary-color)" /> },
