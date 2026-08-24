@@ -34,7 +34,7 @@ const Curriculum = () => {
           {/* Left Column - Placeholder Image */}
           <div style={{ flex: '1 1 400px' }}>
             <img 
-              src="/DSC04842.jpg" 
+              src="/WhatsApp Image 2026-08-22 at 14.02.10.jpeg" 
               alt="Clinical Training" 
               style={{
                 width: '100%',
