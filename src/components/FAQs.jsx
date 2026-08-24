@@ -9,7 +9,7 @@ const faqData = [
   },
   {
     question: "What is the duration of the course?",
-    answer: "The program is a two-year, full-time regular course divided into four semesters of academic and clinical training."
+    answer: "The program is a two-year, full-time regular course of academic and clinical training."
   },
   {
     question: "Are there hospital postings involved?",

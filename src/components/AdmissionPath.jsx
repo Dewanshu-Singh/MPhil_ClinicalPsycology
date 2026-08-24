@@ -11,7 +11,7 @@ const admissionDetails = [
   {
     icon: <Clock size={24} color="var(--primary-color)" />,
     title: "Duration",
-    description: "2 Years, Full-Time — four semesters of academic and intensive clinical training including dissertation work."
+    description: "2 Years, Full-Time — academic and intensive clinical training including dissertation work."
   },
   {
     icon: <IndianRupee size={24} color="var(--primary-color)" />,
