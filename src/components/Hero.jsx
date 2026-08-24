@@ -111,7 +111,7 @@ const Hero = () => {
           }}>
             {[
               { value: '2 Years', label: 'FULL-TIME PROGRAM' },
-              { value: '2022', label: 'RUNNING SINCE' },
+              { value: 'Running Since', label: '2022' },
               { value: '3', label: 'PASSED OUT BATCHES' },
               { value: 'RCI', label: 'APPROVED' }
             ].map((stat, idx) => (
